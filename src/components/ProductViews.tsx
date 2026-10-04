@@ -82,7 +82,7 @@ export function Specs() {
       <section className="spec-block"><h2>URLの扱い</h2><p>画面は <code>#demo</code>、<code>#dashboard</code>、<code>#specs</code>、<code>#diagram</code> で直接開けます。入力した問い合わせ先URLは <code>http://</code> または <code>https://</code> の場合だけ、生成LPプレビューのCTAリンクに使います。URL未入力時のCTAはプレビュー表示です。</p></section>
       <section className="spec-block"><h2>保存・送信・公開</h2><p>入力と生成原稿はブラウザー内だけで扱い、サーバー送信や永続保存はしません。生成原稿のコピー後の利用・公開は利用者が行います。このアプリからLPを公開したり、問い合わせを送信したりする機能はありません。</p></section>
     </div>
-    <p className="spec-price-note">商品料金：未定</p>
+    <p className="spec-price-note">基本料金：50,000円〜（税別）<br />基本料金です。機能追加・個別カスタマイズは別途お見積りとなります。</p>
   </section>
 }
 

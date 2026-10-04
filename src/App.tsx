@@ -126,7 +126,11 @@ export default function App() {
     <div className="site-shell product-shell">
       <header className="site-header">
         <a className="brand" href="#demo" onClick={() => selectView('demo')} aria-label="LPの設計室 商品ページ"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span>LPの設計室<small>LANDING PAGE STUDIO</small></span></a>
-        <div className="product-price"><span>料金：</span><strong>未定</strong></div>
+        <div className="product-price-block">
+          <div className="product-price"><span>基本料金</span><strong>50,000円〜（税別）</strong></div>
+          <p>基本料金です。機能追加・個別カスタマイズは別途お見積りとなります。</p>
+          <div className="product-price-actions"><a href="https://apurihp-production-edf3.up.railway.app/?items=lp-design-room" target="_blank" rel="noopener noreferrer">概算見積りを見る ↗</a><a href="https://mirailab0924.com/production-contact/" target="_blank" rel="noopener noreferrer">制作・カスタマイズについて相談する ↗</a></div>
+        </div>
       </header>
       <nav className="product-nav" aria-label="商品ページの画面">
         <div role="tablist" aria-label="商品情報" onKeyDown={handleViewKeyDown}>

@@ -242,9 +242,13 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .product-shell{overflow:clip}
 .product-shell .site-header{min-height:91px;height:auto;padding:12px max(5.5vw,24px);display:flex;align-items:center;justify-content:space-between;gap:20px}
 .product-shell .brand{flex:0 1 auto}
-.product-price{min-width:112px;display:grid;grid-template-columns:auto auto;align-items:baseline;justify-content:center;column-gap:13px;padding:10px 15px;border:1px solid #e3e5dc;border-radius:10px;background:#fffefa}
-.product-price span{color:#737d75;font-size:11px}
-.product-price strong{color:#466d57;font-size:17px}
+.product-price-block{max-width:590px;padding:10px 14px;border:1px solid #e3e5dc;border-radius:10px;background:#fffefa}
+.product-price{display:flex;align-items:baseline;gap:12px}
+.product-price span{color:#53665b;font-size:14px;font-weight:700}
+.product-price strong{color:#355c43;font-size:22px;line-height:1.35}
+.product-price-block>p{margin:3px 0 0;color:#53665b;font-size:13px;line-height:1.6}
+.product-price-actions{display:flex;flex-wrap:wrap;gap:5px 16px;margin-top:5px}
+.product-price-actions a{color:#355c43;font-size:13px;font-weight:700;text-underline-offset:3px}
 .product-nav{min-height:61px;padding:0 max(5.5vw,24px);display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #e8e7df;background:#fcfbf7}
 .product-nav [role=tablist]{height:61px;display:flex;gap:8px}
 .product-nav button{position:relative;min-width:112px;padding:0 15px;border:0;background:transparent;color:#747c75;font-size:14px;font-weight:650}
@@ -381,8 +385,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
   .product-shell .site-header{min-height:75px;padding:9px 20px}
   .product-shell .brand{font-size:17px}
   .product-shell .brand small{font-size:8px}
-  .product-price{min-width:78px;grid-template-columns:1fr;gap:0;padding:6px 9px;text-align:center}
-  .product-price span{font-size:9px}.product-price strong{font-size:14px}
+  .product-price-block{max-width:65%;padding:7px 9px}
+  .product-price{flex-wrap:wrap;gap:0 7px}
+  .product-price span{font-size:11px}.product-price strong{font-size:16px}
+  .product-price-block>p{font-size:11px;line-height:1.5}
+  .product-price-actions{gap:3px 10px;margin-top:4px}
+  .product-price-actions a{font-size:11px}
   .product-nav{min-height:54px;padding:0 8px;overflow-x:auto}
   .product-nav [role=tablist]{height:54px;min-width:max-content;gap:0}
   .product-nav button{min-width:83px;padding:0 8px;font-size:12px}
