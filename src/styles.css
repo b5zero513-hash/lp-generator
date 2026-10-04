@@ -334,6 +334,45 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .flow-result>span{display:block;color:#828a7e;font-size:9px;font-weight:700;letter-spacing:1px}
 .flow-result strong{display:block;margin-top:4px;color:#49634e;font-family:var(--serif);font-size:17px}
 .flow-result p{margin:5px 0 0;color:#788176;font-size:11px;line-height:1.65}
+/* Product information views: bring supporting text closer to the demo's 15–16px reading size. */
+.dashboard-view .product-view-kicker,.specs-view .product-view-kicker,.diagram-view .product-view-kicker{color:#537162;font-size:13px;letter-spacing:.08em}
+.dashboard-view .product-view-intro>p,.specs-view .product-view-intro>p,.diagram-view .product-view-intro>p{color:#53665b;font-size:16px;line-height:1.85}
+.dashboard-summary-card>div:first-child span{color:#5d6d62;font-size:14px}
+.dashboard-summary-meta span{color:#53665b;font-size:14px}
+.product-text-action{color:#355c43;font-size:15px}
+.product-section-heading h2{font-size:22px}
+.product-section-heading>span{color:#617264;font-size:13px}
+.composition-list li{grid-template-columns:36px minmax(0,1fr);gap:12px;padding:13px 0}
+.composition-number{width:30px;height:30px;font-size:12px}
+.composition-list li strong{color:#405d49;font-size:15px}
+.composition-list li p{font-size:16px;line-height:1.6}
+.composition-list li small{display:block;margin-top:4px;color:#53665b;font-size:14px;line-height:1.7}
+.mini-lp-section>small{color:#596e5a;font-size:11px;letter-spacing:.04em}
+.dashboard-view .mini-lp-section>small{display:block;color:#354f3e;font-size:19px;font-weight:600;line-height:1.5;letter-spacing:0}
+.mini-lp-section h3{font-size:17px;line-height:1.6}
+.mini-lp-section p{color:#4f6255;font-size:14px;line-height:1.8}
+.mini-lp-section .mini-lp-lead{color:#3b5745;font-size:15px}
+.mini-lp-section ul{color:#4f6255;font-size:13px;line-height:1.75}
+.mini-lp-button{font-size:12px}
+.mini-lp-disclaimer{color:#596b5d;font-size:13px;line-height:1.7}
+.product-sample-note{color:#596b5d;font-size:14px}
+.spec-block h2{font-size:22px}
+.spec-block p,.spec-block li{color:#4f6255;font-size:15px;line-height:1.85}
+.spec-block code{font-size:.95em}
+.spec-badge{font-size:13px}
+.spec-columns li{grid-template-columns:112px 1fr;gap:12px;padding:11px 0}
+.spec-columns li strong,.spec-columns li span{font-size:14px;line-height:1.7}
+.spec-columns li strong{color:#405d49}
+.spec-hint{color:#4f6255!important;font-size:14px!important;line-height:1.8!important}
+.spec-price-note{color:#596b5d;font-size:14px}
+.lp-flow-item article{min-height:215px;padding:19px 17px}
+.lp-flow-number{color:#596b5d;font-size:12px}
+.lp-flow-item h2{color:#354f3e;font-size:17px;line-height:1.65}
+.lp-flow-item p{color:#4f6255;font-size:14px;line-height:1.8}
+.lp-flow-item small{color:#4f6255;font-size:12px;line-height:1.7}
+.flow-result>span{color:#596b5d;font-size:12px}
+.flow-result strong{font-size:20px}
+.flow-result p{color:#4f6255;font-size:14px;line-height:1.8}
 @media(max-width:980px){
   .dashboard-layout{grid-template-columns:1fr}
   .composition-list ol{grid-template-columns:1fr 1fr;column-gap:18px}
@@ -371,4 +410,23 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
   .lp-flow-item p{clear:both}
   .lp-flow-item small{clear:both}
   .lp-flow-arrow{top:auto;right:50%;bottom:-19px;transform:rotate(90deg)}
+  .dashboard-view .product-view-intro>p,.specs-view .product-view-intro>p,.diagram-view .product-view-intro>p{font-size:15px}
+  .dashboard-summary-card>div:first-child span,.dashboard-summary-meta span{font-size:13px}
+  .product-text-action{font-size:13px}
+  .product-section-heading h2{font-size:20px}
+  .composition-list li strong{font-size:14px}
+  .composition-list li p{font-size:15px}
+  .composition-list li small{font-size:13px}
+  .mini-lp-section h3{font-size:16px}
+  .mini-lp-section p{font-size:13px}
+  .mini-lp-section .mini-lp-lead{font-size:14px}
+  .mini-lp-section ul{font-size:12px}
+  .spec-block h2{font-size:20px}
+  .spec-block p,.spec-block li{font-size:14px}
+  .spec-columns li strong,.spec-columns li span{font-size:13px}
+  .spec-hint{font-size:13px!important}
+  .lp-flow-item h2{font-size:16px}
+  .lp-flow-item p{font-size:14px}
+  .lp-flow-item small{font-size:13px}
+  .flow-result p{font-size:13px}
 }
